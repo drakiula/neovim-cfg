@@ -24,6 +24,12 @@ return require('packer').startup(function(use)
   }
   use 'nvim-treesitter/nvim-treesitter'
   use 'bluz71/vim-nightfly-colors'
+  use {
+    "kdheepak/lazygit.nvim",
+    requires = {
+      "nvim-lua/plenary.nvim",
+    },
+  }
   use 'vim-test/vim-test'
   use {
     "williamboman/mason.nvim",
