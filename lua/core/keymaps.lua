@@ -17,5 +17,7 @@ vim.opt.expandtab = true
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 
 vim.keymap.set('n', '<a-q>', ':q<CR>')
+-- toggle line numbers
 vim.keymap.set('n', '<leader>ln', ':set number<CR>')
+-- switch off line numbers
 vim.keymap.set('n', '<leader>nl', ':set nonumber<CR>')
