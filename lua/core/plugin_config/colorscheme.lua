@@ -1,2 +1,2 @@
-vim.o.termguicolors = false
+vim.o.termguicolors = true 
 vim.cmd [[ colorscheme kanagawa ]]
