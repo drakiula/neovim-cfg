@@ -43,6 +43,12 @@ return require('packer').startup(function(use)
   }
   use 'tpope/vim-commentary'
   use 'keith/swift.vim'
+  --completions
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+  use 'rafamadriz/friendly-snippets'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

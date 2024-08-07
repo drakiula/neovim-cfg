@@ -21,3 +21,15 @@ vim.keymap.set('n', '<a-q>', ':q<CR>')
 vim.keymap.set('n', '<leader>ln', ':set number<CR>')
 -- switch off line numbers
 vim.keymap.set('n', '<leader>nl', ':set nonumber<CR>')
+
+
+-- Navigate to next buffer
+vim.keymap.set('n', '<Tab>', ':bnext<CR>', { noremap = true, silent = true })
+-- Navigate to previous buffer
+vim.keymap.set('n', '<S-Tab>', ':bprevious<CR>', { noremap = true, silent = true })
+-- List buffers
+vim.keymap.set('n', '<leader>bl', ':ls<CR>', { noremap = true, silent = true })
+-- Close current buffer
+vim.keymap.set('n', '<leader>bd', ':bd<CR>', { noremap = true, silent = true })
+-- Open buffer list with Telescope
+vim.keymap.set('n', '<leader>bb', ':Telescope buffers<CR>', { noremap = true, silent = true })
