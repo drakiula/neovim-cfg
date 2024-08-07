@@ -31,8 +31,8 @@ require("lspconfig").tsserver.setup {
 }
 
 require("lspconfig").ruby_lsp.setup {
-  capabilities = vim.lsp.protocol.make_client_capabilities(),
-  on_attach = on_attach
+  on_attach = on_attach,
+  capabilities = capabilities
 }
 
 require("lspconfig").svelte.setup {
