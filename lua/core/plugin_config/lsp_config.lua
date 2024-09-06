@@ -44,7 +44,7 @@ require("lspconfig").lua_ls.setup {
   },
 }
 
-require("lspconfig").tsserver.setup {
+require("lspconfig").ts_ls.setup {
   on_attach = on_attach,
   capabilities = capabilities
 }
